@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perú - Tierra de Historia y Cultura</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+        }
+
+        header {
+            background-color: #b40000; /* Rojo bandera */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffd700; /* dorado */
+        }
+
+        .hero {
+            background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/7c/Machu_Picchu%2C_Peru.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px black;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+
+        .content {
+            padding: 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        footer {
+            background-color: #b40000;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        button {
+            background-color: #b40000;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #8a0000;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Perú: Tierra de Historia y Cultura</h1>
+    </header>
+
+    <nav>
+        <a href="#historia">Historia</a>
+        <a href="#gastronomia">Gastronomía</a>
+        <a href="#turismo">Turismo</a>
+    </nav>
+
+    <div class="hero">
+        Bienvenido al Perú 🇵🇪
+    </div>
+
+    <div class="content">
+        <h2 id="historia">Historia</h2>
+        <p>El Perú es una de las cunas de civilizaciones más antiguas del mundo, hogar del Imperio Inca y múltiples culturas ancestrales.</p>
+
+        <h2 id="gastronomia">Gastronomía</h2>
+        <p>Reconocida globalmente, la gastronomía peruana incluye platos como el ceviche, lomo saltado, anticuchos y la causa limeña.</p>
+
+        <h2 id="turismo">Turismo</h2>
+        <p>Desde Machu Picchu hasta las Líneas de Nazca, Perú ofrece destinos increíbles llenos de cultura y aventura.</p>
+
+        <button onclick="saludar()">Haz clic para un saludo peruano</button>
+    </div>
+
+    <footer>
+        © 2025 Página peruana – Creada con ❤️ desde Perú
+    </footer>
+
+    <script>
+        function saludar() {
+            alert("¡Bienvenido al Perú, tierra de maravillas!");
+        }
+    </script>
+
+</body>
+</html>
